@@ -1,4 +1,4 @@
-body {
+.container {
     margin: 0 80px;
 }
 
@@ -12,4 +12,59 @@ body {
 
 .txt-50 {
     color: #414141;
+}
+
+h1,
+h2 {
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 600;
+}
+
+h3,
+h4,
+p,
+nav,
+button {
+    font-family: 'Satoshi', sans-serif;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+h3,
+h4 {
+    font-weight: 700;
+}
+
+p,
+footer {
+    font-size: 20px;
+}
+
+nav,
+button {
+    font-size: 24px;
+}
+
+nav,
+footer,
+p {
+    font-weight: 500;
+}
+
+button {
+    font-weight: 700;
 }
