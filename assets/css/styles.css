@@ -23,7 +23,8 @@
 }
 
 h1,
-h2 {
+h2,
+#name {
     font-family: 'Clash Display', sans-serif;
     font-weight: 600;
 }
@@ -241,10 +242,40 @@ button {
     font-size: 48px;
 }
 
-.v-text{
+.v-text {
     display: flex;
     gap: 4px;
     flex-direction: column;
     padding: 20px 0 40px 0;
     height: 93;
+}
+
+/* testimonial-section */
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 466px;
+    background: #CFCEFF;
+    /* padding: 246px 120px; */
+}
+
+.test-item {
+    width: 948px;
+}
+
+#testimonial-txt {
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#name {
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    text-align: right;
 }
