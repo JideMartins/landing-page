@@ -123,14 +123,14 @@ button {
     height: 680px;
 }
 
-.hero-items{
+.hero-items {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 1280px;
 }
 
-.headline{
+.headline {
     display: flex;
     flex-direction: column;
     height: 386px;
@@ -138,39 +138,64 @@ button {
     justify-content: space-between;
 }
 
-.hl-text{
+.hl-text {
     height: 256px;
 }
 
-#hl-paragraph{
+#hl-paragraph {
     margin-top: 16px;
 }
 
-.hl-buttons{
+.hl-buttons {
     display: flex;
     justify-content: flex-start;
     gap: 48px;
 
 }
 
-.btn{
+.btn {
     padding: 12px 20px;
     border: 2px solid #1B1B1B;
     border-radius: 40px;
-    box-shadow: -2px 3px 0px 0px #1B1B1B;
     text-align: center;
     cursor: pointer;
+
+    /* animation */
+    transition-property: all;
+    transition-duration: 0.15s;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    /* shadow variables */
+    --shadow-color: #1B1B1B;
+    --shadow-offset-x: -4px;
+    --shadow-offset-y: 4px;
+    --shadow-blur: 0;
+    --shadow-spread: 0;
+
+    box-shadow: var(--shadow-offset-x) var(--shadow-offset-y) var(--shadow-blur) var(--shadow-spread);
+
+}
+
+.btn:hover {
+    --shadow-offset-x: 0;
+    --shadow-offset-y: 0;
+    --shadow-blur: 0px;
+    --shadow-spread: 0px;
+    transform: translate(-4px, 4px);
 }
 
 
-.pri{
+.pri {
     background-color: #70D8FF;
 }
 
-.sec button{
+.sec button {
     background-color: #FFF;
 }
 
-.hero-items img{
+.hero-items img {
     width: 600px;
 }
+
+
+/* about */
