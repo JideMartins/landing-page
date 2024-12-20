@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/Med.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/duotone/style.css" />
     <link
         href="https://api.fontshare.com/v2/css?f[]=clash-display@200,300,400,500,600,700,1&f[]=satoshi@300,301,400,401,500,501,700,701,900,901,1,2&display=swap"
@@ -15,21 +16,20 @@
 <body>
     <nav class="nav">
         <div class="nav-items txt-100">
-            <div id="navigation logo">
+            <div id="navigation">
                 <a href="#"><img src="assets/images/Med-logo.svg" alt="logo"></a>
             </div>
-            <div class="navigation" id="home"><a href="#">Home</a></div>
-            <div class="navigation nav-link" id="about-us"><a href="#">About Us</a></div>
-            <div class="navigation nav-link" id="testimonials"><a href="#">Testimonials</a></div>
-            <div class="navigation nav-link" id="contact-us"><a href="#">Contact us</a></div>
+            <div class="navigation" id="home"><a href="#hero">Home</a></div>
+            <div class="navigation nav-link"><a href="#about">About Us</a></div>
+            <div class="navigation nav-link"><a href="#testimonial">Testimonials</a></div>
+            <div class="navigation nav-link"><a href="#learn-container">Contact us</a></div>
         </div>
     </nav>
-    <div class="hero">
+    <div class="hero" id="hero">
         <div class="hero-items">
             <div class="headline">
                 <div class="hl-text">
-                    <h1 id="hl-header" class="txt-100">Your Health,</h1>
-                    <h1 id="hl-header" class="txt-100">Our Priority!</h1>
+                    <h1 class="txt-100">Your Health, Our Priority!</h1>
                     <p id="hl-paragraph" class="txt-50">
                         Leading the way in healthcare innovation and compassionate care. Discover how our cutting-edge
                         medical solutions can transform your well-being.
@@ -40,17 +40,17 @@
                     <button class="btn sec">Learn More</button>
                 </div>
             </div>
-            <img src="assets/images/hero-vector.svg" alt="" class="hero-img">
+            <img src="assets/images/hero-vector.svg" alt="" id="hero-img">
         </div>
     </div>
 
-    <div class="about">
-        <div class="about-item about-header">
-            <h2 id="about-heading" class="txt-100">Who We Are</h2>
-            <h3 id="about-sub" class="txt-75">Driven by Compassion, Powered by Innovation.</h3>
+    <div class="about" id="about">
+        <div class="about-header">
+            <h2 class="txt-100">Who We Are</h2>
+            <h3 class="txt-75">Driven by Compassion, Powered by Innovation.</h3>
         </div>
-        <div class="about-item about-values">
-            <div class="value-card v1">
+        <div class="about-values">
+            <div class="value-card">
                 <i class="ph-duotone ph-rocket"></i>
                 <div class="v-text">
                     <h4 class="txt-75">Innovation</h4>
@@ -59,7 +59,7 @@
                     </p>
                 </div>
             </div>
-            <div class="value-card v2">
+            <div class="value-card">
                 <i class="ph-duotone ph-shield-chevron"></i>
                 <div class="v-text">
                     <h4 class="txt-75">Integrity</h4>
@@ -68,7 +68,7 @@
                     </p>
                 </div>
             </div>
-            <div class="value-card v3">
+            <div class="value-card">
                 <i class="ph-duotone ph-pulse"></i>
                 <div class="v-text">
                     <h4 class="txt-75">Compassionate Care</h4>
@@ -77,7 +77,7 @@
                     </p>
                 </div>
             </div>
-            <div class="value-card v4">
+            <div class="value-card">
                 <i class="ph-duotone ph-globe"></i>
                 <div class="v-text">
                     <h4 class="txt-75">Global Reach</h4>
@@ -89,7 +89,7 @@
         </div>
     </div>
 
-    <div class="testimonial txt-75">
+    <div class="testimonial txt-75" id="testimonial">
         <p class="test-item txt-100" id="testimonial-txt">
             "I’m incredibly grateful for the care I received at Med. The doctors were knowledgeable and kind throughout
             my treatment journey."
@@ -99,7 +99,7 @@
         </div>
     </div>
 
-    <div class="learn-container">
+    <div class="learn-container" id="learn-container">
         <div class="learn">
             <div class="learn-item">
                 <p id="learn-heading" class="txt-100">Take the first step to better health!</p>
@@ -112,8 +112,10 @@
         </div>
     </div>
 
-    <footer class="footer container">
-        Copyright &COPY; JideMartins 2024 | <a href="https://phosphoricons.com/" rel="noreferrer" referrerpolicy="no-referrer">Icons</a> | <a href="https://www.drawkit.com/" rel="noreferrer" referrerpolicy="no-referrer">Illustrations</a>
+    <footer class="footer" id="footer">
+        Copyright &COPY; JideMartins 2024 | <a href="https://phosphoricons.com/" rel="noreferrer"
+            referrerpolicy="no-referrer">Icons</a> | <a href="https://www.drawkit.com/" rel="noreferrer"
+            referrerpolicy="no-referrer">Illustrations</a>
     </footer>
 
 </body>
