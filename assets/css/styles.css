@@ -4,11 +4,11 @@
     box-sizing: border-box;
 }
 
-.container,
+/* .container,
 .nav-items,
 .hero-items {
     margin: 0 80px;
-}
+} */
 
 .txt-100 {
     color: #1B1B1B;
@@ -198,4 +198,53 @@ button {
 }
 
 
-/* about */
+/* about section*/
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+    align-items: center;
+    height: 542px;
+    background-color: #E4FF97;
+}
+
+.about-header {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.about-values {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.value-card {
+    display: flex;
+    gap: 4px;
+    width: 305px;
+    height: 204px;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+    text-align: center;
+}
+
+.values-para {
+    font-size: 18px;
+}
+
+.ph-duotone {
+    font-size: 48px;
+}
+
+.v-text{
+    display: flex;
+    gap: 4px;
+    flex-direction: column;
+    padding: 20px 0 40px 0;
+    height: 93;
+}
