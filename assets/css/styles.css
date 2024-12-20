@@ -1,4 +1,15 @@
-body{
+body {
     margin: 0 80px;
 }
 
+.txt-100 {
+    color: #1B1B1B;
+}
+
+.txt-75 {
+    color: #363636;
+}
+
+.txt-50 {
+    color: #414141;
+}
