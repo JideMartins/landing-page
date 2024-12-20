@@ -5,7 +5,8 @@
 }
 
 .container,
-.nav-items {
+.nav-items,
+.hero-items {
     margin: 0 80px;
 }
 
@@ -76,12 +77,18 @@ button {
     font-weight: 700;
 }
 
+
+.nav,
+.hero {
+    background-color: #FFECE5;
+}
+
+/* nav section */
 .nav {
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #FFECE5;
 }
 
 .nav-items {
@@ -106,4 +113,64 @@ button {
 
 .nav-link {
     margin-left: 52px;
+}
+
+
+/* hero section */
+.hero {
+    display: flex;
+    justify-content: center;
+    height: 680px;
+}
+
+.hero-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1280px;
+}
+
+.headline{
+    display: flex;
+    flex-direction: column;
+    height: 386px;
+    width: 560px;
+    justify-content: space-between;
+}
+
+.hl-text{
+    height: 256px;
+}
+
+#hl-paragraph{
+    margin-top: 16px;
+}
+
+.hl-buttons{
+    display: flex;
+    justify-content: flex-start;
+    gap: 48px;
+
+}
+
+.btn{
+    padding: 12px 20px;
+    border: 2px solid #1B1B1B;
+    border-radius: 40px;
+    box-shadow: -2px 3px 0px 0px #1B1B1B;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.pri{
+    background-color: #70D8FF;
+}
+
+.sec button{
+    background-color: #FFF;
+}
+
+.hero-items img{
+    width: 600px;
 }
